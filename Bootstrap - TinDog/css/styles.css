@@ -11,22 +11,21 @@ body{
   padding: 3% 15% 7%;
 }
 
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat-Bold";
+}
+
 h1{
-    font-family: "Montserrat-Black";
     font-size: 3.5rem;
     line-height: 1.5;
     font-weight: 900;
 }
 
 h2{
-  font-family: "Montserrat-Bold";
   font-size: 3rem;
   line-height: 1.5;
 }
 
-h3{
-  font-family: "Montserrat-Bold";
-}
 
 p{
   color: #8f8f8f;
@@ -130,4 +129,48 @@ p{
 
 .pricing-column{
   padding: 3% 2%;
+}
+
+/* Call to Action  */
+
+#cta{
+  background-color: #FF4C68;
+  color: #fff;
+  font-family: "Montserrat-Black";
+  text-align: center;
+  padding: 7% 3%;
+}
+
+#cta h3{
+  font-size: 3rem;
+  font-weight: 700;
+}
+#cta button{
+  margin: 3% 0;
+}
+
+
+/* Footer  */
+
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 5%;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+
+@media (max-width: 1028px){
+
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
 }
