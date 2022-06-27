@@ -6,6 +6,9 @@ const bodyParser = require("body-parser");
 const app = express();
 
 app.get("/",function(req,res){
+    var today = new Date();
+
+    if(today.getDay() === 6|| today.getDay() === )
     res.send("Hello");
 });
 
